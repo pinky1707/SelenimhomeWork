@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw13CreateAMethodByTestNG.MethodByTestNG">
+      <class name="hw14Selenium.Use_of_click_methods">
         <methods>
-          <include name="tearUp"/>
           <include name="setUp"/>
-          <include name="urlTest"/>
+          <include name="signinButtonTest1"/>
+          <include name="tearUp"/>
         </methods>
-      </class> <!-- hw13CreateAMethodByTestNG.MethodByTestNG -->
+      </class> <!-- hw14Selenium.Use_of_click_methods -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
