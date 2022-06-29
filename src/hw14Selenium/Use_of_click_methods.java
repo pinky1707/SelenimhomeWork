@@ -24,7 +24,7 @@ public class Use_of_click_methods {
 	}
 	@Test
 	public void signinButtonTest1() throws InterruptedException {
-		driver.findElement(By.id("SignIn-submitButton")).click();  //.clear();
+		driver.findElement(By.id("SignIn-submitButton")).click();  
 		Thread.sleep(5000);
 	}
 	public void signButtonTest2() {
@@ -34,12 +34,7 @@ public class Use_of_click_methods {
 		driver.findElement(By.name("name")).click();
 	}
 	
-	public void macysJobsTest4() {
-		driver.findElement(By.linkText("MacysJOBS")).click();// From Macys
-	}
-	public void macysJobsTest5() {
-		driver.findElement(By.partialLinkText("MacysJ")).click();// From Macys
-	}
+	
 	public void logotest6() {
 		driver.findElement(By.cssSelector("img.Image")).click();
 	}

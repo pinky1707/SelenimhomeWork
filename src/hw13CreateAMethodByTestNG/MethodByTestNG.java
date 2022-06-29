@@ -12,10 +12,10 @@ public class MethodByTestNG {
 
 	@BeforeTest
 	public void setUp() {
+//		System.setProperties(null);
+//		System.getProperties();
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		driver = new ChromeDriver();
-//		driver.getProperties();
-//		driver.setProperties();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 

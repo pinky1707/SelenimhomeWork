@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-27T03:57:29 EDT" name="Default suite" finished-at="2022-06-27T03:57:41 EDT" duration-ms="11018">
+  <suite started-at="2022-06-29T02:35:44 EDT" name="Default suite" finished-at="2022-06-29T02:35:52 EDT" duration-ms="8685">
     <groups>
     </groups>
-    <test started-at="2022-06-27T03:57:29 EDT" name="Default test" finished-at="2022-06-27T03:57:41 EDT" duration-ms="11018">
-      <class name="hw13CreateAMethodByTestNG.MethodByTestNG">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hw13CreateAMethodByTestNG.MethodByTestNG@2c35e847]" started-at="2022-06-27T03:57:30 EDT" name="setUp" finished-at="2022-06-27T03:57:32 EDT" duration-ms="2392" status="PASS">
+    <test started-at="2022-06-29T02:35:44 EDT" name="Default test" finished-at="2022-06-29T02:35:52 EDT" duration-ms="8685">
+      <class name="hw14Selenium.Use_of_click_method_02">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hw14Selenium.Use_of_click_method_02@7bd4937b]" started-at="2022-06-29T02:35:44 EDT" name="setUp" finished-at="2022-06-29T02:35:51 EDT" duration-ms="7618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="urlTest()[pri:0, instance:hw13CreateAMethodByTestNG.MethodByTestNG@2c35e847]" started-at="2022-06-27T03:57:32 EDT" name="urlTest" finished-at="2022-06-27T03:57:40 EDT" duration-ms="8323" status="PASS">
+        <test-method signature="macysJobsTest4()[pri:0, instance:hw14Selenium.Use_of_click_method_02@7bd4937b]" started-at="2022-06-29T02:35:51 EDT" name="macysJobsTest4" finished-at="2022-06-29T02:35:52 EDT" duration-ms="731" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- urlTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:hw13CreateAMethodByTestNG.MethodByTestNG@2c35e847]" started-at="2022-06-27T03:57:40 EDT" name="tearUp" finished-at="2022-06-27T03:57:41 EDT" duration-ms="256" status="PASS">
+        </test-method> <!-- macysJobsTest4 -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:hw14Selenium.Use_of_click_method_02@7bd4937b]" started-at="2022-06-29T02:35:52 EDT" name="tearUp" finished-at="2022-06-29T02:35:52 EDT" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- hw13CreateAMethodByTestNG.MethodByTestNG -->
+      </class> <!-- hw14Selenium.Use_of_click_method_02 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

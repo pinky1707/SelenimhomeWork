@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw14Selenium.Use_of_click_methods">
+      <class name="hw15UseOfMethods.Use_of_getAttribute_method">
         <methods>
+          <include name="getAttributeTest"/>
           <include name="setUp"/>
-          <include name="signinButtonTest1"/>
           <include name="tearUp"/>
         </methods>
-      </class> <!-- hw14Selenium.Use_of_click_methods -->
+      </class> <!-- hw15UseOfMethods.Use_of_getAttribute_method -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
