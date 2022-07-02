@@ -3,35 +3,36 @@ package hw15UseOfMethods;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.By.ByXPath;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Use_of_getAttribute_method {
 	WebDriver driver;
+
 	@BeforeTest
 	public void setUp() {
-		System.setProperty("webdriver.gecko.driver", "./driver/geckodriver.exe");
-		WebDriver driver = new FirefoxDriver();
+		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.get("https://www.kroger.com/");
+		driver.get("https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ru=https%3A%2F%2Fwww.ebay.com%2F");
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
-	@Test
+
+	@Test(enabled = true, priority = 1)
 	public void getAttributeTest() {
-		String value01= driver.findElement(By.xpath("//button[text()='Departments']")).getAttribute("ID");
-		System.out.println("The value of the id attribute: " + value01); //ExposedMenu-Category-Departments id
-		
-		
+		String value01 = driver.findElement(By.xpath("//a[text()='create an account']")).getAttribute("id");
+		System.out.println("The value of the id attribute: " + value01); // id="create-account-link"
 	}
+
 	@AfterTest
 	public void tearUp() {
 		driver.quit();
+
 	}
 
 }

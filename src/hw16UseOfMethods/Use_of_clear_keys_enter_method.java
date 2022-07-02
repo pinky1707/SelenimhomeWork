@@ -1,15 +1,16 @@
-package hw15UseOfMethods;
+package hw16UseOfMethods;
 
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_getCurrentUrl_method {
+public class Use_of_clear_keys_enter_method {
 	WebDriver driver;
 
 	@BeforeTest
@@ -18,16 +19,22 @@ public class Use_of_getCurrentUrl_method {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.get("https://www.kroger.com/signin?redirectUrl=/");
+		driver.get("https://www.ikea.com/us/en/search/products");
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
-	@Test
-	public void currentPageUrlTest() throws InterruptedException {
-		driver.findElement(By.xpath("//button[@id='SignIn-createAccountButton']")).click();
+	@Test(enabled = true, priority = 1)
+	public void sendKeysTest() throws InterruptedException {
+		driver.findElement(By.cssSelector("input.search-field__input")).sendKeys("Kids table", Keys.ENTER);
 		Thread.sleep(3000);
-		System.out.println("The current Url :" + driver.getCurrentUrl());
+		driver.findElement(By.cssSelector("input.search-field__input")).clear();
+		Thread.sleep(3000);
+		driver.findElement(By.cssSelector("input.search-field__input")).sendKeys("sofa", Keys.RETURN);
+		Thread.sleep(3000);
+		driver.findElement(By.cssSelector("input.search-field__input")).clear();
+		Thread.sleep(3000);
+
 	}
 
 	@AfterTest

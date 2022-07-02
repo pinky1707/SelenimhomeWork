@@ -24,7 +24,7 @@ public class Use_of_isSelected_method {
 	}
 
 	@Test
-	public void Test() throws InterruptedException {
+	public void signInButtonTest() throws InterruptedException {
 		boolean checkSignInButton = driver.findElement(By.cssSelector("button#SignIn-submitButton")).isSelected(); //
 		System.out.println("Is the Sign In Button Selected? Ans: " + checkSignInButton);
 		Thread.sleep(5000);

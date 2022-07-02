@@ -1,4 +1,4 @@
-package hw15UseOfMethods;
+package hw16UseOfMethods;
 
 import java.time.Duration;
 
@@ -9,7 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_getCurrentUrl_method {
+public class Use_of_inevigate_methods {
 	WebDriver driver;
 
 	@BeforeTest
@@ -18,22 +18,26 @@ public class Use_of_getCurrentUrl_method {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.get("https://www.kroger.com/signin?redirectUrl=/");
+		driver.get("https://www.ikea.com/");
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Test
-	public void currentPageUrlTest() throws InterruptedException {
-		driver.findElement(By.xpath("//button[@id='SignIn-createAccountButton']")).click();
+	public void nevigationTest() throws InterruptedException  {
 		Thread.sleep(3000);
-		System.out.println("The current Url :" + driver.getCurrentUrl());
+		driver.navigate().to("https://www.ebay.com/");
+		Thread.sleep(3000);
+		driver.navigate().back();
+		Thread.sleep(3000);
+		driver.navigate().forward();
+		Thread.sleep(3000);
+		driver.navigate().refresh();
 	}
 
 	@AfterTest
 	public void tearUp() {
 		driver.quit();
-
 	}
 
 }

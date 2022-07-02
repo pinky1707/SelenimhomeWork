@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw15UseOfMethods.Use_of_getAttribute_method">
+      <class name="hw16UseOfMethods.Use_of_clear_keys_enter_method">
         <methods>
-          <include name="getAttributeTest"/>
-          <include name="setUp"/>
           <include name="tearUp"/>
+          <include name="sendKeysTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- hw15UseOfMethods.Use_of_getAttribute_method -->
+      </class> <!-- hw16UseOfMethods.Use_of_clear_keys_enter_method -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
