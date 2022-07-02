@@ -9,7 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_isDisplayed_method {
+public class Use_of_isDisplayed_method { 
 	WebDriver driver;
 	@BeforeTest
 	public void setUp() {
@@ -26,6 +26,8 @@ public class Use_of_isDisplayed_method {
 	public void logoTest() {
 		boolean elementDisplayed=driver.findElement(By.xpath("//img[@class='Image']")).isDisplayed();
 		System.out.println("Is the logo displayed? Ans: " + elementDisplayed); 
+	  //Is the logo displayed? Ans: true
+	       //PASSED: logoTest
 	}
 	
 	@AfterTest

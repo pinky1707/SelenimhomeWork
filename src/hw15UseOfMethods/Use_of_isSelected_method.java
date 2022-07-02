@@ -9,7 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_isSelected_method {
+public class Use_of_isSelected_method { 
 	WebDriver driver;
 
 	@BeforeTest
@@ -28,7 +28,9 @@ public class Use_of_isSelected_method {
 		boolean checkSignInButton = driver.findElement(By.cssSelector("button#SignIn-submitButton")).isSelected(); //
 		System.out.println("Is the Sign In Button Selected? Ans: " + checkSignInButton);
 		Thread.sleep(5000);
-	}
+	}  //Is the Sign In Button Selected? Ans: false
+	   //PASSED: signInButtonTest
+
 
 	@AfterTest
 	public void tearUp() {

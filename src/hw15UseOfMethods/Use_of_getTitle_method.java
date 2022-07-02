@@ -2,16 +2,15 @@ package hw15UseOfMethods;
 
 import java.time.Duration;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_getTitle_method {
+public class Use_of_getTitle_method { 
 	WebDriver driver;
-
+ 
 	@BeforeTest
 	public void setUp() {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
@@ -25,7 +24,7 @@ public class Use_of_getTitle_method {
 
 	@Test
 	public void titleOfThePageTest() {
-		System.out.println("The title of the Page is: " + driver.getTitle());
+		System.out.println("The title of the Page is: " + driver.getTitle());//The title of the Page is: Kroger
 	}
 
 	@AfterTest

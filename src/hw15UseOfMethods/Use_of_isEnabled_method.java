@@ -9,7 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_isEnabled_method {
+public class Use_of_isEnabled_method { 
 	WebDriver driver;
 
 	@BeforeTest
@@ -27,8 +27,10 @@ public class Use_of_isEnabled_method {
 	public void signInButtonTest() {
 		boolean signInButtonEnabled = driver.findElement(By.xpath("//button[@id='SignIn-submitButton']")).isEnabled();
 		System.out.println("Is the SignIn button enabled?Ans :" + signInButtonEnabled);
-	}
+		//Is the SignIn button enabled?Ans :true 
+		 //PASSED: signInButtonTest
 
+	} 
 	@AfterTest
 	public void tearUp() {
 		driver.quit();

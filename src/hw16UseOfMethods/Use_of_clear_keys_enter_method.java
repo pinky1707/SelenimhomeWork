@@ -26,11 +26,11 @@ public class Use_of_clear_keys_enter_method {
 
 	@Test(enabled = true, priority = 1)
 	public void sendKeysTest() throws InterruptedException {
-		driver.findElement(By.cssSelector("input.search-field__input")).sendKeys("Kids table", Keys.ENTER);
-		Thread.sleep(3000);
-		driver.findElement(By.cssSelector("input.search-field__input")).clear();
-		Thread.sleep(3000);
-		driver.findElement(By.cssSelector("input.search-field__input")).sendKeys("sofa", Keys.RETURN);
+//		driver.findElement(By.cssSelector("input.search-field__input")).sendKeys("Kids table", Keys.ENTER);
+//		Thread.sleep(3000);
+//		driver.findElement(By.cssSelector("input.search-field__input")).clear();
+//		Thread.sleep(3000);
+		driver.findElement(By.cssSelector("input.search-field__input")).sendKeys("sofa", Keys.ENTER);
 		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("input.search-field__input")).clear();
 		Thread.sleep(3000);

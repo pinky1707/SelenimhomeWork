@@ -9,7 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_getCurrentUrl_by_firefoxDriver {
+public class Use_of_getCurrentUrl_by_firefoxDriver {   
 	WebDriver driver;
 	@BeforeTest
 	public void setUp() {
@@ -25,9 +25,9 @@ public class Use_of_getCurrentUrl_by_firefoxDriver {
 	}
 	@Test
 	public void currentPgeUrlTest() throws InterruptedException {
-		driver.findElement(By.xpath("//img[@class='logo lazyloaded']"));
+		driver.findElement(By.xpath("//img[@class='logo lazyloaded']")).click();
 		Thread.sleep(3000);
-		System.out.println("The current Url :" + driver.getCurrentUrl());
+		System.out.println("The current Url :" + driver.getCurrentUrl());//The current Url :https://www.aetna.com/
 		
 	}
 	@AfterTest
