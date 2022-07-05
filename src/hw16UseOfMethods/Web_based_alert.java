@@ -10,7 +10,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Web_based_alert {
+public class Web_based_alert { 
 	WebDriver driver;
 
 	@BeforeTest
@@ -39,6 +39,9 @@ public class Web_based_alert {
 		Thread.sleep(3000);
 		Alert alert = driver.switchTo().alert();
 		alert.dismiss();
+	//The text of the Alert is : I am a JS Confirm
+	//PASSED: acceptTheAlertFromWeb
+	//PASSED: dismissTheAlertFromWeb
 	}
 
 	@AfterTest

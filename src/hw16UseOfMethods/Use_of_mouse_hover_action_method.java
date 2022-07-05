@@ -11,7 +11,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_mouse_hover_action_method {
+public class Use_of_mouse_hover_action_method { 
 	WebDriver driver;
 
 	@BeforeTest
@@ -24,7 +24,7 @@ public class Use_of_mouse_hover_action_method {
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
-@Test//not working
+@Test
 	public void mouseHoverActionTest() throws InterruptedException {
 		Actions actons= new Actions(driver);
 		WebElement eBayRef= driver.findElement(By.xpath("(//a[text()='eBay Refurbished'])[3]"));
@@ -32,6 +32,9 @@ public class Use_of_mouse_hover_action_method {
 		actons.moveToElement(eBayRef).build().perform();
 		Thread.sleep(3000);
 		System.out.println("The text of the web element is :" + eBayRef.getText());
+		//The text of the web element is :eBay Refurbished
+		//PASSED: mouseHoverActionTest
+
 	}
 
 	@AfterTest

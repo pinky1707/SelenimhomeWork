@@ -8,7 +8,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_inevigate_methods {
+public class Use_of_navigate_methods { 
 	WebDriver driver;
 
 	@BeforeTest
@@ -32,6 +32,7 @@ public class Use_of_inevigate_methods {
 		driver.navigate().forward();
 		Thread.sleep(3000);
 		driver.navigate().refresh();
+         // PASSED: nevigationTest
 	}
 
 	@AfterTest

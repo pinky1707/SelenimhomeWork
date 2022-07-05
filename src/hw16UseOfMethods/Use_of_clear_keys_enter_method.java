@@ -10,8 +10,9 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_clear_keys_enter_method {
+public class Use_of_clear_keys_enter_method { 
 	WebDriver driver;
+
 
 	@BeforeTest
 	public void setUp() {
@@ -19,22 +20,21 @@ public class Use_of_clear_keys_enter_method {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.get("https://www.ikea.com/us/en/search/products");
+		driver.get("https://www.bestbuy.com/");
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 
 	@Test(enabled = true, priority = 1)
 	public void sendKeysTest() throws InterruptedException {
-//		driver.findElement(By.cssSelector("input.search-field__input")).sendKeys("Kids table", Keys.ENTER);
-//		Thread.sleep(3000);
-//		driver.findElement(By.cssSelector("input.search-field__input")).clear();
-//		Thread.sleep(3000);
-		driver.findElement(By.cssSelector("input.search-field__input")).sendKeys("sofa", Keys.ENTER);
+		driver.findElement(By.xpath("//input[@id='gh-search-input']")).sendKeys("HEADPHONE", Keys.ENTER);
 		Thread.sleep(3000);
-		driver.findElement(By.cssSelector("input.search-field__input")).clear();
+		driver.findElement(By.xpath("//input[@id='gh-search-input']")).clear();
 		Thread.sleep(3000);
-
+		driver.findElement(By.xpath("//input[@id='gh-search-input']")).sendKeys("Laptop", Keys.RETURN);
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//input[@id='gh-search-input']")).clear();
+		Thread.sleep(3000);
 	}
 
 	@AfterTest
@@ -44,3 +44,7 @@ public class Use_of_clear_keys_enter_method {
 	}
 
 }
+		
+		
+		
+		

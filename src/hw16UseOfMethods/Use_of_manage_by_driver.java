@@ -2,14 +2,13 @@ package hw16UseOfMethods;
 
 import java.time.Duration;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Use_of_manage_by_driver {
+public class Use_of_manage_by_driver { 
 	FirefoxDriver driver;
 
 	@BeforeTest
@@ -66,7 +65,14 @@ public class Use_of_manage_by_driver {
 	public void implecitlywaitTest() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://www.ikea.com/");
-	}
+		}
+		//PASSED: setASpecificSizeOfWindowTest
+		//PASSED: maximizeWindowTest
+		//PASSED: sizeOfWindowTest
+		//PASSED: deleteAllCookiesTest
+		//PASSED: fullScreenWindowTest
+       //The size of the screen is : (1280, 720)
+	   //The size of the screen is : (700, 400)
 
 	@AfterTest
 	public void tearUp() {
