@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw16UseOfMethods.Use_of_Keys_enter_clear_method">
+      <class name="hw17Selenium.Use_of_alerts">
         <methods>
-          <include name="tearUp"/>
-          <include name="sendKeysTest"/>
           <include name="setUp"/>
+          <include name="dismissAlertJSConfirm"/>
+          <include name="tearUp"/>
         </methods>
-      </class> <!-- hw16UseOfMethods.Use_of_Keys_enter_clear_method -->
+      </class> <!-- hw17Selenium.Use_of_alerts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
