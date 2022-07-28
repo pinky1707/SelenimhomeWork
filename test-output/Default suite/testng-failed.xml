@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw17Selenium.Use_of_alerts">
+      <class name="hw17Selenium.Use_of_webDriverManager">
         <methods>
           <include name="setUp"/>
-          <include name="dismissAlertJSConfirm"/>
           <include name="tearUp"/>
+          <include name="signInButtonTest01"/>
         </methods>
-      </class> <!-- hw17Selenium.Use_of_alerts -->
+      </class> <!-- hw17Selenium.Use_of_webDriverManager -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
