@@ -2,23 +2,23 @@
 <testng-results ignored="1" total="16" passed="14" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-15T14:57:26 EDT" name="Default suite" finished-at="2022-07-15T14:58:15 EDT" duration-ms="49451">
+  <suite started-at="2022-07-28T01:48:26 EDT" name="Default suite" finished-at="2022-07-28T01:49:20 EDT" duration-ms="53646">
     <groups>
       <group name="functionalTest">
         <method signature="Use_of_webDriverManager.skipHomePageTitleTest()[pri:0, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" name="skipHomePageTitleTest" class="hw17Selenium.Use_of_webDriverManager"/>
       </group> <!-- functionalTest -->
     </groups>
-    <test started-at="2022-07-15T14:57:26 EDT" name="Default test" finished-at="2022-07-15T14:58:15 EDT" duration-ms="49451">
+    <test started-at="2022-07-28T01:48:26 EDT" name="Default test" finished-at="2022-07-28T01:49:20 EDT" duration-ms="53646">
       <class name="hw17Selenium.Use_of_webDriverManager">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:57:26 EDT" name="setUp" finished-at="2022-07-15T14:57:33 EDT" duration-ms="7724" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:48:26 EDT" name="setUp" finished-at="2022-07-28T01:48:37 EDT" duration-ms="11387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="menuTest03()[pri:0, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:57:33 EDT" name="menuTest03" finished-at="2022-07-15T14:57:34 EDT" duration-ms="232" status="PASS">
+        <test-method signature="menuTest03()[pri:0, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:48:37 EDT" name="menuTest03" finished-at="2022-07-28T01:48:38 EDT" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuTest03 -->
-        <test-method signature="signInButtonTest01()[pri:0, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:57:34 EDT" name="signInButtonTest01" finished-at="2022-07-15T14:57:54 EDT" duration-ms="20053" status="FAIL">
+        <test-method signature="signInButtonTest01()[pri:0, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:48:38 EDT" name="signInButtonTest01" finished-at="2022-07-28T01:48:58 EDT" duration-ms="20093" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: #\ xyz\ Sign\ in\ button
@@ -26,9 +26,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.2.2', revision: '683ccb65d6'
 System info: host: 'PINKYSAHA', ip: '10.0.0.72', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [c2b69333-44ff-423c-9d73-41041d510bf6, findElement {using=id, value= xyz Sign in button}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:60428, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 6644, moz:profile: C:\Users\Sonjo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:60428/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c2b69333-44ff-423c-9d73-41041d510bf6]]>
+Command: [8aaddcfc-7d76-402c-9dd5-e800998a5182, findElement {using=id, value= xyz Sign in button}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:60838, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9616, moz:profile: C:\Users\Sonjo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8aaddcfc-7d76-402c-9dd5-e800998a5182]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #\ xyz\ Sign\ in\ button
@@ -36,9 +36,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.2.2', revision: '683ccb65d6'
 System info: host: 'PINKYSAHA', ip: '10.0.0.72', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [c2b69333-44ff-423c-9d73-41041d510bf6, findElement {using=id, value= xyz Sign in button}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:60428, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 6644, moz:profile: C:\Users\Sonjo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:60428/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c2b69333-44ff-423c-9d73-41041d510bf6
+Command: [8aaddcfc-7d76-402c-9dd5-e800998a5182, findElement {using=id, value= xyz Sign in button}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:60838, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9616, moz:profile: C:\Users\Sonjo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8aaddcfc-7d76-402c-9dd5-e800998a5182
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -55,7 +55,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
-at hw17Selenium.Use_of_webDriverManager.signInButtonTest01(Use_of_webDriverManager.java:104)
+at hw17Selenium.Use_of_webDriverManager.signInButtonTest01(Use_of_webDriverManager.java:97)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,7 +90,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInButtonTest01 -->
-        <test-method signature="signInButtonTest02()[pri:0, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:57:54 EDT" name="signInButtonTest02" finished-at="2022-07-15T14:58:14 EDT" duration-ms="20024" status="PASS">
+        <test-method signature="signInButtonTest02()[pri:0, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:48:58 EDT" name="signInButtonTest02" finished-at="2022-07-28T01:49:18 EDT" duration-ms="20023" status="PASS">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: #\ xyz\ Sign\ in\ button
@@ -98,9 +98,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.2.2', revision: '683ccb65d6'
 System info: host: 'PINKYSAHA', ip: '10.0.0.72', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [c2b69333-44ff-423c-9d73-41041d510bf6, findElement {using=id, value= xyz Sign in button}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:60428, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 6644, moz:profile: C:\Users\Sonjo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:60428/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c2b69333-44ff-423c-9d73-41041d510bf6]]>
+Command: [8aaddcfc-7d76-402c-9dd5-e800998a5182, findElement {using=id, value= xyz Sign in button}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:60838, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9616, moz:profile: C:\Users\Sonjo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8aaddcfc-7d76-402c-9dd5-e800998a5182]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #\ xyz\ Sign\ in\ button
@@ -108,9 +108,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.2.2', revision: '683ccb65d6'
 System info: host: 'PINKYSAHA', ip: '10.0.0.72', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [c2b69333-44ff-423c-9d73-41041d510bf6, findElement {using=id, value= xyz Sign in button}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 102.0.1, moz:accessibilityChecks: false, moz:buildID: 20220705093820, moz:debuggerAddress: localhost:60428, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 6644, moz:profile: C:\Users\Sonjo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:60428/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c2b69333-44ff-423c-9d73-41041d510bf6
+Command: [8aaddcfc-7d76-402c-9dd5-e800998a5182, findElement {using=id, value= xyz Sign in button}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0, moz:accessibilityChecks: false, moz:buildID: 20220718155818, moz:debuggerAddress: localhost:60838, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9616, moz:profile: C:\Users\Sonjo\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60838/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8aaddcfc-7d76-402c-9dd5-e800998a5182
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -127,7 +127,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
-at hw17Selenium.Use_of_webDriverManager.signInButtonTest02(Use_of_webDriverManager.java:99)
+at hw17Selenium.Use_of_webDriverManager.signInButtonTest02(Use_of_webDriverManager.java:102)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -162,55 +162,55 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInButtonTest02 -->
-        <test-method signature="skipHomePageTitleTest()[pri:0, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:58:14 EDT" name="skipHomePageTitleTest" finished-at="2022-07-15T14:58:14 EDT" duration-ms="11" status="PASS">
+        <test-method signature="skipHomePageTitleTest()[pri:0, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:49:18 EDT" name="skipHomePageTitleTest" finished-at="2022-07-28T01:49:18 EDT" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skipHomePageTitleTest -->
-        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:58:14 EDT" name="menuTest01" finished-at="2022-07-15T14:58:14 EDT" duration-ms="24" status="PASS">
+        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:49:18 EDT" name="menuTest01" finished-at="2022-07-28T01:49:18 EDT" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuTest01 -->
-        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:58:14 EDT" name="menuTest01" finished-at="2022-07-15T14:58:14 EDT" duration-ms="15" status="PASS">
+        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:49:18 EDT" name="menuTest01" finished-at="2022-07-28T01:49:18 EDT" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuTest01 -->
-        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:58:14 EDT" name="menuTest01" finished-at="2022-07-15T14:58:14 EDT" duration-ms="26" status="PASS">
+        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:49:18 EDT" name="menuTest01" finished-at="2022-07-28T01:49:18 EDT" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuTest01 -->
-        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:58:14 EDT" name="menuTest01" finished-at="2022-07-15T14:58:14 EDT" duration-ms="13" status="PASS">
+        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:49:18 EDT" name="menuTest01" finished-at="2022-07-28T01:49:18 EDT" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuTest01 -->
-        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:58:14 EDT" name="menuTest01" finished-at="2022-07-15T14:58:14 EDT" duration-ms="20" status="PASS">
+        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:49:18 EDT" name="menuTest01" finished-at="2022-07-28T01:49:18 EDT" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuTest01 -->
-        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:58:14 EDT" name="menuTest01" finished-at="2022-07-15T14:58:14 EDT" duration-ms="10" status="PASS">
+        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:49:18 EDT" name="menuTest01" finished-at="2022-07-28T01:49:18 EDT" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuTest01 -->
-        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:58:14 EDT" name="menuTest01" finished-at="2022-07-15T14:58:14 EDT" duration-ms="28" status="PASS">
+        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:49:18 EDT" name="menuTest01" finished-at="2022-07-28T01:49:18 EDT" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuTest01 -->
-        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:58:14 EDT" name="menuTest01" finished-at="2022-07-15T14:58:14 EDT" duration-ms="12" status="PASS">
+        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:49:18 EDT" name="menuTest01" finished-at="2022-07-28T01:49:18 EDT" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuTest01 -->
-        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:58:14 EDT" name="menuTest01" finished-at="2022-07-15T14:58:14 EDT" duration-ms="28" status="PASS">
+        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:49:18 EDT" name="menuTest01" finished-at="2022-07-28T01:49:18 EDT" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuTest01 -->
-        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:58:14 EDT" name="menuTest01" finished-at="2022-07-15T14:58:14 EDT" duration-ms="26" status="PASS">
+        <test-method signature="menuTest01()[pri:1, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:49:18 EDT" name="menuTest01" finished-at="2022-07-28T01:49:18 EDT" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuTest01 -->
-        <test-method signature="menuTest02()[pri:2, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:58:14 EDT" name="menuTest02" finished-at="2022-07-15T14:58:14 EDT" duration-ms="11" status="PASS">
+        <test-method signature="menuTest02()[pri:2, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:49:18 EDT" name="menuTest02" finished-at="2022-07-28T01:49:18 EDT" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- menuTest02 -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-15T14:58:14 EDT" name="tearUp" finished-at="2022-07-15T14:58:15 EDT" duration-ms="1241" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:hw17Selenium.Use_of_webDriverManager@71a8adcf]" started-at="2022-07-28T01:49:18 EDT" name="tearUp" finished-at="2022-07-28T01:49:20 EDT" duration-ms="1395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
